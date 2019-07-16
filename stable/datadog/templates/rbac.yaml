@@ -100,7 +100,7 @@ subjects:
   - kind: ServiceAccount
     name: {{ template "datadog.fullname" . }}
     namespace: {{ .Release.Namespace }}
-{{- end -}}
+{{- end }}
 ---
 apiVersion: v1
 kind: ServiceAccount
